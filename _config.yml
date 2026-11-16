@@ -153,6 +153,12 @@ social:
   links: # An array of links to social media profiles
 
 
+# Visitor widgets on the right side of the footer (leave a value empty to hide that widget)
+footer_visitors:
+  hits_id                : "bingyangyu.github.io" # "Visitors" count badge from https://hits.sh
+  mapmyvisitors_id       : "QPnFJKyKGOmVxB-OaBwcZiFkfsT17oWWzldOo5U8VV8" # the d=... value from your https://mapmyvisitors.com embed code
+
+
 # Analytics
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"

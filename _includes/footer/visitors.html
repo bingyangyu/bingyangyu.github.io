@@ -1,0 +1,16 @@
+{% comment %}
+  Visitor widgets on the right side of the footer, configured under footer_visitors in _config.yml.
+{% endcomment %}
+{% assign visitors = site.footer_visitors %}
+{% if visitors.hits_id or visitors.mapmyvisitors_id %}
+<div class="page__footer-visitors">
+  {% if visitors.hits_id %}
+    <img class="page__footer-hits" src="https://hits.sh/{{ visitors.hits_id }}.svg?style=flat&amp;label=Visitors&amp;color=2563eb&amp;labelColor=1e3a8a" alt="Visitor count" height="20">
+  {% endif %}
+  {% if visitors.mapmyvisitors_id %}
+    <div class="page__footer-map">
+      <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=9db8d2&amp;w=150&amp;t=n&amp;d={{ visitors.mapmyvisitors_id }}&amp;co=f2f3f3&amp;ct=000000"></script>
+    </div>
+  {% endif %}
+</div>
+{% endif %}
