@@ -67,6 +67,15 @@ Service and leadership
 * **EnVision Arts and Engineering Maker Studio**, UC San Diego — Volunteer (Mar. 2023 – June 2023)
   * Trained new students on 3D printers and laser cutters and provided technical guidance on maker projects.
 
+* **Electronic Anti-theft Device with GPS Tracking for Bicycle**, UC San Diego (Jan. 2023 – Mar. 2023)
+  * Designed and built a GPS-based bicycle tracker, including ESP32 firmware, a Bluetooth control interface, and a custom PCB and CAD model.
+
+  <div class="site-preview">
+    <a href="https://bikeguardian.weebly.com/" target="_blank" rel="noopener" title="Open the Bike Guardian project website">
+      <img src="{{ base_path }}/images/bikeguardian-preview.jpg" alt="Bike Guardian project website" width="800" height="450" loading="lazy">
+    </a>
+  </div>
+
 * **Rocket Propulsion Laboratory**, UC San Diego (Oct. 2022 – May 2023)
   * Designed, assembled, and launched a small-scale solid-propellant rocket.
 

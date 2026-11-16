@@ -399,3 +399,25 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+
+/*
+   Embedded website preview
+   ========================================================================== */
+
+.site-preview {
+  margin: 0.5em 0 1.5em 40px; /* 40px = default nested-list indent, lines up with the sub-bullet text */
+  max-width: 360px;
+
+  a {
+    display: block;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--global-border-color);
+    border-radius: $border-radius;
+  }
+}
